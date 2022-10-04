@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  },
+  "name": "full-stack-notes-app-main",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node backend/server.js",
+    "dev" : "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
